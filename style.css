@@ -292,7 +292,7 @@ footer {
 
     footer {
         width: 100%;
-        min-height: 150px;
+        max-height: 150px;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
