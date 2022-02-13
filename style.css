@@ -221,12 +221,19 @@ footer {
     }
 
     section {
-        width: 100%
+        width: 100%;
+        padding-bottom: 6rem;    
     }
 
     .section-para {
         inline-size: 640px;
         overflow-wrap: break-word;
+        margin-bottom: 5rem;
+    }
+    .hero-section{
+        align-items: center;
+        height: 100vh;
+        padding: 0;
     }
 
     .devices-img {
@@ -236,6 +243,7 @@ footer {
     .hero-section>p {
         inline-size: 550px;
         overflow-wrap: break-word;
+        margin-bottom: 3.5rem;
     }
 
     .computer>img {
@@ -325,7 +333,6 @@ footer {
     }
 
     .social {
-
         margin: 0;
     }
 }
