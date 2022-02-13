@@ -227,16 +227,24 @@ footer {
         inline-size: 640px;
         overflow-wrap: break-word;
     }
-    .devices-img{
+
+    .devices-img {
         margin-bottom: 0;
     }
+    
+
     .hero-section>p {
         inline-size: 550px;
         overflow-wrap: break-word;
     }
-.computer>img{
-    width: 90%;
-}
+
+    .computer>img {
+        width: 90%;
+    }
+    .devices-img>img {
+        width: 90%;
+    }
+
     .snippets-points {
         width: 100%;
         display: flex;
@@ -310,7 +318,9 @@ footer {
         justify-content: flex-start;
         align-items: flex-start;
     }
-    .links a:nth-child(4),.links a:nth-child(4){
+
+    .links a:nth-child(4),
+    .links a:nth-child(4) {
         margin: 0;
     }
 
